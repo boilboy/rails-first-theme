@@ -1,0 +1,56 @@
+// Place all the styles related to the plans controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+    margin-top: 0;
+   }
+   
+   li {
+    list-style: none;
+   }
+   
+   h2 {
+       padding: 20px;
+       color: #fff;
+       background-color: #7bc890;
+      }
+   
+   main {
+       margin: auto 15px;
+      }
+      
+   .PageTitle {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+      }
+      
+   .PageTitle p { 
+       display: flex;
+       height: 28px;
+       padding: 3px 20px;
+       background-color: #7bc890;
+       border-radius: 5px;
+       align-items: center;
+      }
+      
+   a {
+       text-decoration: none;
+      }
+   
+   table th {
+        background-color: #a2d864;
+        padding: 10px 20px;
+      }
+      
+   table td {
+        background-color: #e9df9d;
+        padding: 10px 20px;
+        text-align: center;
+      }
+      
+   .notice {
+        background-color: #ccf;
+        padding: 5px;
+        margin-top: 0;
+      }
