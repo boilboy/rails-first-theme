@@ -5,27 +5,27 @@ body {
     margin-top: 0;
    }
    
-   li {
+li {
     list-style: none;
    }
    
-   h2 {
-       padding: 20px;
-       color: #fff;
-       background-color: #7bc890;
-      }
+h2 {
+    padding: 20px;
+    color: #fff;
+    background-color: #7bc890;
+   }
    
-   main {
+main {
        margin: auto 15px;
-      }
+     }
       
-   .PageTitle {
+.PageTitle {
        display: flex;
        align-items: center;
        justify-content: space-between;
       }
       
-   .PageTitle p { 
+.PageTitle p { 
        display: flex;
        height: 28px;
        padding: 3px 20px;
@@ -34,23 +34,24 @@ body {
        align-items: center;
       }
       
-   a {
+a {
        text-decoration: none;
       }
    
-   table th {
+table th {
         background-color: #a2d864;
         padding: 10px 20px;
       }
       
-   table td {
+table td {
         background-color: #e9df9d;
         padding: 10px 20px;
         text-align: center;
       }
       
-   .notice {
+.notice {
         background-color: #ccf;
         padding: 5px;
         margin-top: 0;
       }
+      

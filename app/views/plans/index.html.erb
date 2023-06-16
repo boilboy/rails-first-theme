@@ -29,7 +29,7 @@
         <td><%= plan.start_at.to_s(:date_jp) %></td>  
         <td><%= plan.end_at.to_s(:date_jp) %></td>
         <td>
-         <% if plan.is_all_day == true %>
+         <% if plan.is_all_day == true %>   
            ◯
          <% else plan.is_all_day == false %>
           <% end %>
@@ -52,6 +52,4 @@
 
 <footer>
   <h2>予定合計 <%= Plan.count(:id) %> 件 本日の日付 <%= Date.today.to_s(:date_jp) %></h2>
-<footer>
-
-  
+<footer>  
